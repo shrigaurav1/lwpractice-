@@ -1,0 +1,47 @@
+    1  ls
+    2  ls -l
+    3  cd ..
+    4  ls -l
+    5  cd /etc/nginx
+    6  ls -l
+    7  cat site-available
+    8  cat conf.d
+    9  cat nginx.conf
+   10  clear 
+   11  cd ..
+   12  systemctl --ports
+   13  systemctl -ports
+   14  systemctl -ports > kk.txt
+   15  cat kk.txt
+   16  clear 
+   17  yum install git -y
+   18  systemctl enable git
+   19  systemctl status git
+   20  git -v
+   21  systemctl power-off
+   22  systemctl poweroff
+   23  clear
+   24  pwd
+   25  clear
+   26  ssh-keygen 
+   27  cat /root/.ssh/id_rsa.pub
+   28  git clone git@github.com:shrigaurav1/lwpractice-.git
+   29  ls -lthr
+   30  git branch
+   31  clear
+   32  cd lwpractice-/
+   33  git branch
+   34  git branch vikas
+   35  git branch
+   36  git switch vikas
+   37  git branch
+   38  vim ga.txt
+   39  ls -l
+   40  git add .
+   41  git commit -m "this is a new text file created"
+   42  git push
+   43      git push --set-upstream origin vikas
+   44  clear
+   45  history
+   46  clear
+   47  history > h.txt
